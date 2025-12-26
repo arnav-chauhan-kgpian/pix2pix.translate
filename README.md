@@ -13,7 +13,7 @@ The goal of this project is to learn a mapping from input satellite images to ou
 
 The project uses the **Pix2Pix Maps Dataset**.
 
-* **Source:** [Maps Dataset on Kaggle](https://www.kaggle.com/datasets/vikramtiwari/pix2pix-dataset) (or similar).
+* **Source:** [Maps Dataset on Kaggle](https://www.kaggle.com/datasets/vikramtiwari/pix2pix-dataset) .
 * **Structure:** Paired images. Each file contains the **Satellite Image** and the **Map Ground Truth** concatenated side-by-side.
 * **Preprocessing:** The `MapDataset` class dynamically splits these images to separate inputs from targets.
 
